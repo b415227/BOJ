@@ -9,9 +9,9 @@ int main()
 {
     string a, b;
     cin >> a >> b;
-    for (int i = 0; i < a.length(); i++)
+    for (int i = 0; i < b.length(); i++)
     {
-        for (int j = 0; j < b.length(); j++)
+        for (int j = 0; j < a.length(); j++)
         {
             p[i][j] = '.';
         }
