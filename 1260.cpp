@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <vector>
 #include <cstring>
@@ -52,7 +51,7 @@ int main() {
 	bfs(start);
 	puts("");
 }
-*/
+/*
 #include <cstdio>
 #include <cstring>
 #include <queue>
@@ -122,3 +121,4 @@ int main() {
 	printf("\n");
 	return 0;
 }
+*/
