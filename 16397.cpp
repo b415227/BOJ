@@ -37,9 +37,8 @@ int bfs()
             p[a1] = true;
             s.push({a1, m + 1});
         }
-        a1 = n * 2; //*2 - 가장높은자리 -1
-        if (a1 >= MAX)
-            return -1;
+        a1 = n * 2; //*2 - 가장높은자리 1
+        if (a1 >= MAX) continue;
         int digit = 1;
         int check1 = a1;
         while (check1)
@@ -48,7 +47,7 @@ int bfs()
             digit *= 10;
         }
         a1 -= digit / 10;
-        if (!p[a1])
+        if (!p[a1]) 
         {
             p[a1] = true;
             s.push({a1, m + 1});
